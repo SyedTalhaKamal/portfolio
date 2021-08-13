@@ -2,9 +2,13 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockqu
   margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
 /* ======================================================================= Global Start =========================================== */
+body{
+  font-family: 'Khand', sans-serif;
+  background-color: #171717;
 
+}
 /* ================== Fonts Family Start ==================*/
-.fp{font-family: 'Poppins', sans-serif;}
+.fk{font-family: 'Khand', sans-serif;}
 /* ================== Fonts Family End ==================*/
 
 /* ================== Buttons Start ==================*/
@@ -29,12 +33,81 @@ a.navbar-brand img {
   outline: none;
   border: none;
 }
+.custom-nav{
+  background-color: #f1f1f1;
+}
 /* ================== Nav End here  ==================*/
 /* ================== Banner Start here  ==================*/
 .carousel-img {
   height: 700px;
 }
 /* ================== Banner End here  ==================*/
+/* ================== Frontend Start here  ==================*/
+.frontend-projects{
+  font-size: 60px;
+  margin: 100px 0 50px 0;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+}
+.category-product{
+  background-color: #F9F9F9;
+  padding: 20px 15px;
+  position: relative;
+  overflow: hidden;
+}
+.category-image {
+  display: block;
+  height: auto;
+  width: 247px;
+  height: 177px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.category-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #231F20;
+  transform: translateY(-150px);
+}
+
+.category-product:hover .category-overlay {
+  opacity: 0.4;
+  transform: translateY(0px);
+}
+
+.category-text {
+  color: #231F20;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: white;
+  padding: 15px 15px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 160px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+}
+.category-product:hover .category-text{
+  opacity: 1;
+}
+.product-main{
+  border: 1px solid #fff;
+}
+/* ================== Frontend End here  ==================*/
 /* ======================================================================= Global End =========================================== */
 /* ======================= Media Queries =========================================== */
 @media(max-width:991px){}

@@ -4,11 +4,13 @@ $pg = 'Home';
 include('header.php');
 include('nav.php');
 ?>
+<!-- Carousel -->
 <section>
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 px-0">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <img src="images/banner.PNG" alt="" class="img-fluid w-100" loading="lazy">
+                <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -41,10 +43,34 @@ include('nav.php');
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
-                </div>
+                </div> -->
 
             </div>
         </div>
     </div>
 </section>
+<!-- Carousel -->
+<!-- Frontend Projects -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="frontend-projects">Frontend Projects</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="product-main">
+                    <div class="category-product">
+                        <img src="images/fox-project.png" alt="" class="img-fluid category-image w-100" loading="lazy">
+                        <div class="category-overlay">
+                        </div>
+                        <a href="https://dev124.onlinetestingserver.com/fox's/web/index.php"target="_blank"><h5 class="category-text">Visit Website</h5></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Frontend Projects -->
 <?php include('footer.php') ?>
