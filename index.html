@@ -1,890 +1,521 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="icon" href="images/logo.ico" type="image/ico" sizes="32x32" />
-    <title>Talha Portfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Khand:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <section class="custom-nav">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12">
-            <nav class="navbar navbar-expand-lg navbar-light">
-              <a class="navbar-brand" href="index.php">
-                <img src="images/logo.png" alt="" loading="lazy" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="icon" href="images/logo.ico" type="image/ico" sizes="32x32" />
+  <title>Talha Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Khand:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <section class="custom-nav">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.php">
+              <img src="images/logo.png" alt="" loading="lazy" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.php">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact Me</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Carousel -->
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 px-0" data-aos="zoom-in" data-aos-duration="1500" data-aos-anchor-placement="top-center">
+          <img src="images/banner.PNG" alt="" class="img-fluid w-100" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Carousel -->
+  <!-- Frontend Projects -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center" data-aos="fade-in" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <h1 class="frontend-projects">React Projects</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/midas.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="http://beltexco.enerlyticslab.com/" target="_blank">
+                <h5 class="category-text">Visit Dashboard</h5>
               </a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <i class="fas fa-bars"></i>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="index.php">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact Me</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/fsel.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://fsel.enerlyticslab.com/" target="_blank">
+                <h5 class="category-text">Visit Dashboard</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/wateen.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://wateen.enerlyticslab.com/" target="_blank">
+                <h5 class="category-text">Visit Dashboard</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/virtual-retreat-admin.PNG" alt="" class="img-fluid category-image w-100"
+                loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://dev124.onlinetestingserver.com/virtual-retreat/admin/" target="_blank">
+                <h5 class="category-text">Visit Dashboard</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/virtual-retreat-user.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://dev124.onlinetestingserver.com/virtual-retreat/user/" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-12 text-center" data-aos="fade-in" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <h1 class="frontend-projects">HTML Projects</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/my-pet.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://dev124.onlinetestingserver.com/my-pet-book/user-old/index.php" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/fox-project.png" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://dev124.onlinetestingserver.com/fox's/web/index.php" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/compass.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://dev124.onlinetestingserver.com/compass-furniture-old/index.php" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/xococo.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://dev124.onlinetestingserver.com/xococo/user/index.php" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/gaia.png" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://dev124.onlinetestingserver.com/gaia/user/index.php" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/tracie.png" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://dev125.onlinetestingserver.com/tracie-reSed/user/index.php" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/cargo.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="http://dev124.onlinetestingserver.com/cargo-&-freight/web/index.php" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/apto-beauty.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://dev124.onlinetestingserver.com/apto-beauty-old/web/index.php" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/younglad.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://syedtalhakamal.github.io/younglad/" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/lms.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://dev124.onlinetestingserver.com/lms/user/index.php" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/ihr.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://dev124.onlinetestingserver.com/ihr/user/home.php" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/zarnns.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://dev124.onlinetestingserver.com/zarnns/user/index.php" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/clements.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="http://dev124.onlinetestingserver.com/clements-law/index.php" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/ayodeks.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://dev20.onlinetestingserver.com/ayodeks/" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/vivala.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://syedtalhakamal.github.io/vivala/" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/wim.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://syedtalhakamal.github.io/wim/" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/zimrah.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://syedtalhakamal.github.io/zimrah/" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/sports.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://syedtalhakamal.github.io/sportsanimal/" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/go-live.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://syedtalhakamal.github.io/golive/" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/natural-wraps.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://syedtalhakamal.github.io/naturalwraps/" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/combat.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://syedtalhakamal.github.io/combat/" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/city-juice.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://syedtalhakamal.github.io/cityjuice/" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/jme.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://syedtalhakamal.github.io/jme/" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/bps.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://syedtalhakamal.github.io/bps/" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/tgsa.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://syedtalhakamal.github.io/tgsa/" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/train-online.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://syedtalhakamal.github.io/trainonline/" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/leash.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://syedtalhakamal.github.io/leash/" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- Carousel -->
-    <section>
+      <div class="row">
+        <div class="col-12 text-center" data-aos="fade-in" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <h1 class="frontend-projects">Wordpress Projects</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-anchor-placement="top-center">
+          <div class="product-main">
+            <div class="category-product">
+              <img src="images/igon.PNG" alt="" class="img-fluid category-image w-100" loading="lazy" />
+              <div class="category-overlay"></div>
+              <a href="https://igonsol.com/" target="_blank">
+                <h5 class="category-text">Visit Website</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center" data-aos="fade-in" data-aos-duration="1500"
+          data-aos-anchor-placement="top-bottom">
+          <h1 class="frontend-projects" id="contact">Contact Details</h1>
+          <div class="d-inline-block mt-2">
+            <label for="" class="contact-label">Email :</label>
+            <a href="mailto:syedtalhakamal22@gmail.com" class="footernumber">syedtalhakamal22@gmail.com</a>
+          </div>
+          <div class="d-inline-block mt-2">
+            <label for="" class="contact-label ml-3">Number :</label>
+            <a href="tel:0334-34097645" class="footernumber">0334-34097645</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Frontend Projects -->
+  <!--footer start here-->
+  <footer>
+    <div class="footer-bottom">
       <div class="container-fluid">
         <div class="row">
-          <div
-            class="col-12 px-0"
-            data-aos="zoom-in"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <img
-              src="images/banner.PNG"
-              alt=""
-              class="img-fluid w-100"
-              loading="lazy"
-            />
+          <div class="col-12 text-center px-0">
+            <p>Copyright © Talha</p>
           </div>
         </div>
       </div>
-    </section>
-    <!-- Carousel -->
-    <!-- Frontend Projects -->
-    <section>
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-12 text-center"
-            data-aos="fade-in"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <h1 class="frontend-projects">React Projects</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/virtual-retreat-user.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a href="https://dev124.onlinetestingserver.com/virtual-retreat/user/" target="_blank">
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/virtual-retreat-admin.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a href="https://dev124.onlinetestingserver.com/virtual-retreat/admin/" target="_blank">
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div
-            class="col-12 text-center"
-            data-aos="fade-in"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <h1 class="frontend-projects">HTML Projects</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/my-pet.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a
-                  href="https://dev124.onlinetestingserver.com/my-pet-book/user-old/index.php"
-                  target="_blank"
-                >
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/fox-project.png"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a
-                  href="https://dev124.onlinetestingserver.com/fox's/web/index.php"
-                  target="_blank"
-                >
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/compass.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a
-                  href="https://dev124.onlinetestingserver.com/compass-furniture-old/index.php"
-                  target="_blank"
-                >
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/xococo.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a
-                  href="https://dev124.onlinetestingserver.com/xococo/user/index.php"
-                  target="_blank"
-                >
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/gaia.png"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a
-                  href="https://dev124.onlinetestingserver.com/gaia/user/index.php"
-                  target="_blank"
-                >
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/tracie.png"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a
-                  href="https://dev125.onlinetestingserver.com/tracie-reSed/user/index.php"
-                  target="_blank"
-                >
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/cargo.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a
-                  href="http://dev124.onlinetestingserver.com/cargo-&-freight/web/index.php"
-                  target="_blank"
-                >
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/apto-beauty.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a
-                  href="https://dev124.onlinetestingserver.com/apto-beauty-old/web/index.php"
-                  target="_blank"
-                >
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/younglad.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a
-                  href="https://syedtalhakamal.github.io/younglad/"
-                  target="_blank"
-                >
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/lms.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a
-                  href="https://dev124.onlinetestingserver.com/lms/user/index.php"
-                  target="_blank"
-                >
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/ihr.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a
-                  href="https://dev124.onlinetestingserver.com/ihr/user/home.php"
-                  target="_blank"
-                >
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/zarnns.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a
-                  href="https://dev124.onlinetestingserver.com/zarnns/user/index.php"
-                  target="_blank"
-                >
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/apto-2.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a
-                  href="https://dev124.onlinetestingserver.com/apto-beauty/user/index.php"
-                  target="_blank"
-                >
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/clements.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a
-                  href="http://dev124.onlinetestingserver.com/clements-law/index.php"
-                  target="_blank"
-                >
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/ayodeks.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a
-                  href="https://dev20.onlinetestingserver.com/ayodeks/"
-                  target="_blank"
-                >
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/vivala.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a
-                  href="https://syedtalhakamal.github.io/vivala/"
-                  target="_blank"
-                >
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/wim.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a href="https://syedtalhakamal.github.io/wim/" target="_blank">
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/zimrah.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a
-                  href="https://syedtalhakamal.github.io/zimrah/"
-                  target="_blank"
-                >
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/sports.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a
-                  href="https://syedtalhakamal.github.io/sportsanimal/"
-                  target="_blank"
-                >
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/go-live.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a
-                  href="https://syedtalhakamal.github.io/golive/"
-                  target="_blank"
-                >
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/natural-wraps.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a
-                  href="https://syedtalhakamal.github.io/naturalwraps/"
-                  target="_blank"
-                >
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/leash.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a
-                  href="https://syedtalhakamal.github.io/leash/"
-                  target="_blank"
-                >
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/combat.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a
-                  href="https://syedtalhakamal.github.io/combat/"
-                  target="_blank"
-                >
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/city-juice.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a
-                  href="https://syedtalhakamal.github.io/cityjuice/"
-                  target="_blank"
-                >
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/jme.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a href="https://syedtalhakamal.github.io/jme/" target="_blank">
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/bps.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a href="https://syedtalhakamal.github.io/bps/" target="_blank">
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/tgsa.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a
-                  href="https://syedtalhakamal.github.io/tgsa/"
-                  target="_blank"
-                >
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/train-online.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a
-                  href="https://syedtalhakamal.github.io/trainonline/"
-                  target="_blank"
-                >
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div
-            class="col-12 text-center"
-            data-aos="fade-in"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <h1 class="frontend-projects">Wordpress Projects</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div
-            class="col-lg-4 col-md-6 mt-2"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-center"
-          >
-            <div class="product-main">
-              <div class="category-product">
-                <img
-                  src="images/igon.PNG"
-                  alt=""
-                  class="img-fluid category-image w-100"
-                  loading="lazy"
-                />
-                <div class="category-overlay"></div>
-                <a href="https://igonsol.com/" target="_blank">
-                  <h5 class="category-text">Visit Website</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div
-            class="col-12 text-center"
-            data-aos="fade-in"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-bottom"
-          >
-            <h1 class="frontend-projects" id="contact">Contact Details</h1>
-            <div class="d-inline-block mt-2">
-              <label for="" class="contact-label">Email :</label>
-              <a href="mailto:syedtalhakamal22@gmail.com" class="footernumber"
-                >syedtalhakamal22@gmail.com</a
-              >
-            </div>
-            <div class="d-inline-block mt-2">
-              <label for="" class="contact-label ml-3">Number :</label>
-              <a href="tel:0334-34097645" class="footernumber">0334-34097645</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Frontend Projects -->
-    <!--footer start here-->
-    <footer>
-      <div class="footer-bottom">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-12 text-center px-0">
-              <p>Copyright © Talha</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!--footer end here-->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+    </div>
+  </footer>
+  <!--footer end here-->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
 </html>
